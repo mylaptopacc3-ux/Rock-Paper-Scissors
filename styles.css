@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-top: 20px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+button {
+    padding: 15px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 90px;
+    width: 250px;
+    font-size: 25px;
+    background-color:white;
+    color: black;
+}
+
+button:hover {
+    background-color: #259750;
+    color: white;
+}
+
+#result {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#score {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+#reset {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.guidelines {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
