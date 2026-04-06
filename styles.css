@@ -19,8 +19,8 @@ button {
     height: 90px;
     width: 250px;
     font-size: 25px;
-    background-color:white;
-    color: black;
+    background-color: blue;
+    color: white;
 }
 
 button:hover {
@@ -55,4 +55,7 @@ button:hover {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    background-color : red;
+    font-size: 18px;
+    color: white;
 }
